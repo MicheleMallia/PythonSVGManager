@@ -1,0 +1,252 @@
+<!DOCTYPE html><html><body><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="180" width="400">
+  <rect height="150" id="rect0" rx="20" ry="20" style="fill:red;stroke:black;stroke-width:5;opacity:0.5" width="150" x="50" y="20"/>
+</svg><script>document.getElementsByTagName('svg')[0].setAttribute('height', '400'); document.getElementsByTagName('svg')[0].setAttribute('width', '800'); </script><input type='button' onClick='history.go(0)' VALUE='Ripristina il disegno originale'><div id='desc'></div><div id='push' style='float: right; width: 540px; margin-right: 35px;'></div><script>var table = document.createElement('table');
+var tr = document.createElement('tr');
+ var th = document.createElement('th');
+var node = document.createTextNode('rect0');
+ th.appendChild(node);
+tr.appendChild(th);
+table.appendChild(tr);
+ var element = document.getElementById('desc');
+ element.appendChild(table);
+ var btnGet = document.createElement('BUTTON');
+var btnSet = document.createElement('BUTTON');
+var t = document.createTextNode('get');
+ var s = document.createTextNode('set');
+btnGet.appendChild(t);
+ btnSet.appendChild(s);
+ var att = document.createAttribute('onclick');
+ att.value='getAttrrect0()';
+btnGet.setAttributeNode(att);
+element.appendChild(btnGet);
+var attSet = document.createAttribute('onclick');
+ attSet.value='setAttrrect0()';
+btnSet.setAttributeNode(attSet);
+element.appendChild(btnSet);
+var push = document.getElementById('push'); </script><script>
+function getAttrrect0(){
+	document.getElementById('rect0');
+if(push.childNodes[0] != null){
+	while(push.childNodes[0] != null){
+	push.removeChild(push.firstChild);
+}
+}
+else if(push.childNodes[0] == null){
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('style');
+var tag0=document.createElement('p');
+var testTag0 = document.createTextNode('style rect0');
+tag0.appendChild(testTag0);
+var attr0=document.createElement('p');
+var testAtt0 = document.createTextNode(svgAtt);
+attr0.appendChild(testAtt0);
+push.appendChild(tag0);
+push.appendChild(attr0);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('rx');
+var tag1=document.createElement('p');
+var testTag1 = document.createTextNode('rx rect0');
+tag1.appendChild(testTag1);
+var attr1=document.createElement('p');
+var testAtt1 = document.createTextNode(svgAtt);
+attr1.appendChild(testAtt1);
+push.appendChild(tag1);
+push.appendChild(attr1);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('ry');
+var tag2=document.createElement('p');
+var testTag2 = document.createTextNode('ry rect0');
+tag2.appendChild(testTag2);
+var attr2=document.createElement('p');
+var testAtt2 = document.createTextNode(svgAtt);
+attr2.appendChild(testAtt2);
+push.appendChild(tag2);
+push.appendChild(attr2);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('height');
+var tag3=document.createElement('p');
+var testTag3 = document.createTextNode('height rect0');
+tag3.appendChild(testTag3);
+var attr3=document.createElement('p');
+var testAtt3 = document.createTextNode(svgAtt);
+attr3.appendChild(testAtt3);
+push.appendChild(tag3);
+push.appendChild(attr3);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('width');
+var tag4=document.createElement('p');
+var testTag4 = document.createTextNode('width rect0');
+tag4.appendChild(testTag4);
+var attr4=document.createElement('p');
+var testAtt4 = document.createTextNode(svgAtt);
+attr4.appendChild(testAtt4);
+push.appendChild(tag4);
+push.appendChild(attr4);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('y');
+var tag5=document.createElement('p');
+var testTag5 = document.createTextNode('y rect0');
+tag5.appendChild(testTag5);
+var attr5=document.createElement('p');
+var testAtt5 = document.createTextNode(svgAtt);
+attr5.appendChild(testAtt5);
+push.appendChild(tag5);
+push.appendChild(attr5);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('x');
+var tag6=document.createElement('p');
+var testTag6 = document.createTextNode('x rect0');
+tag6.appendChild(testTag6);
+var attr6=document.createElement('p');
+var testAtt6 = document.createTextNode(svgAtt);
+attr6.appendChild(testAtt6);
+push.appendChild(tag6);
+push.appendChild(attr6);}}</script><script>
+function setAttrrect0(){
+	document.getElementById('rect0');
+if(push.childNodes[0] != null){
+	while(push.childNodes[0] != null){
+	push.removeChild(push.firstChild);
+}
+}
+else if(push.childNodes[0] == null){
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('style');
+var tag0=document.createElement('p');
+var testTag0 = document.createTextNode('style rect0');
+tag0.appendChild(testTag0);
+ var attr0=document.createElement('input');
+ attr0.setAttribute('id', 'style');
+ attr0.setAttribute('type','text');
+ attr0.setAttribute('value',svgAtt);
+ push.appendChild(tag0);
+ push.appendChild(attr0);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply0');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal0()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('rx');
+var tag1=document.createElement('p');
+var testTag1 = document.createTextNode('rx rect0');
+tag1.appendChild(testTag1);
+ var attr1=document.createElement('input');
+ attr1.setAttribute('id', 'rx');
+ attr1.setAttribute('type','text');
+ attr1.setAttribute('value',svgAtt);
+ push.appendChild(tag1);
+ push.appendChild(attr1);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply1');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal1()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('ry');
+var tag2=document.createElement('p');
+var testTag2 = document.createTextNode('ry rect0');
+tag2.appendChild(testTag2);
+ var attr2=document.createElement('input');
+ attr2.setAttribute('id', 'ry');
+ attr2.setAttribute('type','text');
+ attr2.setAttribute('value',svgAtt);
+ push.appendChild(tag2);
+ push.appendChild(attr2);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply2');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal2()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('height');
+var tag3=document.createElement('p');
+var testTag3 = document.createTextNode('height rect0');
+tag3.appendChild(testTag3);
+ var attr3=document.createElement('input');
+ attr3.setAttribute('id', 'height');
+ attr3.setAttribute('type','text');
+ attr3.setAttribute('value',svgAtt);
+ push.appendChild(tag3);
+ push.appendChild(attr3);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply3');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal3()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('width');
+var tag4=document.createElement('p');
+var testTag4 = document.createTextNode('width rect0');
+tag4.appendChild(testTag4);
+ var attr4=document.createElement('input');
+ attr4.setAttribute('id', 'width');
+ attr4.setAttribute('type','text');
+ attr4.setAttribute('value',svgAtt);
+ push.appendChild(tag4);
+ push.appendChild(attr4);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply4');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal4()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('y');
+var tag5=document.createElement('p');
+var testTag5 = document.createTextNode('y rect0');
+tag5.appendChild(testTag5);
+ var attr5=document.createElement('input');
+ attr5.setAttribute('id', 'y');
+ attr5.setAttribute('type','text');
+ attr5.setAttribute('value',svgAtt);
+ push.appendChild(tag5);
+ push.appendChild(attr5);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply5');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal5()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);
+	var svg = document.getElementById('rect0');
+var svgAtt = svg.getAttribute('x');
+var tag6=document.createElement('p');
+var testTag6 = document.createTextNode('x rect0');
+tag6.appendChild(testTag6);
+ var attr6=document.createElement('input');
+ attr6.setAttribute('id', 'x');
+ attr6.setAttribute('type','text');
+ attr6.setAttribute('value',svgAtt);
+ push.appendChild(tag6);
+ push.appendChild(attr6);
+ var btnApply = document.createElement('BUTTON');
+  var text = document.createTextNode('apply6');
+ btnApply.appendChild(text);
+ var applyClick = document.createAttribute('onclick');
+ applyClick.value='setVal6()';
+ btnApply.setAttributeNode(applyClick);
+ push.appendChild(btnApply);}}</script><script>function setVal0(){
+var input = document.getElementById('style').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('style', input);}</script><script>function setVal1(){
+var input = document.getElementById('rx').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('rx', input);}</script><script>function setVal2(){
+var input = document.getElementById('ry').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('ry', input);}</script><script>function setVal3(){
+var input = document.getElementById('height').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('height', input);}</script><script>function setVal4(){
+var input = document.getElementById('width').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('width', input);}</script><script>function setVal5(){
+var input = document.getElementById('y').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('y', input);}</script><script>function setVal6(){
+var input = document.getElementById('x').value; var svg = document.getElementById('rect0');
+ svg.setAttribute('x', input);}</script></body></html>
